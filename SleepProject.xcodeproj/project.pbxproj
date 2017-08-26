@@ -17,6 +17,10 @@
 		4971B2901F5203FE0034116F /* Graph1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971B28F1F5203FE0034116F /* Graph1ViewController.swift */; };
 		4971B2921F5207F90034116F /* Graph2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971B2911F5207F90034116F /* Graph2ViewController.swift */; };
 		4971B2941F52082A0034116F /* Graph3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971B2931F52082A0034116F /* Graph3ViewController.swift */; };
+		4971B2981F5211C20034116F /* Graph2Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4971B2971F5211C20034116F /* Graph2Data.json */; };
+		4971B29A1F5212060034116F /* Graph1Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4971B2991F5212060034116F /* Graph1Data.json */; };
+		4971B29C1F5212100034116F /* Graph3Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4971B29B1F5212100034116F /* Graph3Data.json */; };
+		4971B29E1F5212530034116F /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971B29D1F5212530034116F /* JSONModel.swift */; };
 		79D88265AD44E711EC90AD36 /* Pods_SleepProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4203968D1E0C329BEA61904 /* Pods_SleepProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +38,10 @@
 		4971B28F1F5203FE0034116F /* Graph1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph1ViewController.swift; sourceTree = "<group>"; };
 		4971B2911F5207F90034116F /* Graph2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph2ViewController.swift; sourceTree = "<group>"; };
 		4971B2931F52082A0034116F /* Graph3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph3ViewController.swift; sourceTree = "<group>"; };
+		4971B2971F5211C20034116F /* Graph2Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Graph2Data.json; sourceTree = "<group>"; };
+		4971B2991F5212060034116F /* Graph1Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Graph1Data.json; sourceTree = "<group>"; };
+		4971B29B1F5212100034116F /* Graph3Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Graph3Data.json; sourceTree = "<group>"; };
+		4971B29D1F5212530034116F /* JSONModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
 		912E9BFBF75EAFAFE4E567DB /* Pods-SleepProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SleepProject/Pods-SleepProject.release.xcconfig"; sourceTree = "<group>"; };
 		E4203968D1E0C329BEA61904 /* Pods_SleepProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SleepProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +98,10 @@
 				4971B28F1F5203FE0034116F /* Graph1ViewController.swift */,
 				4971B2911F5207F90034116F /* Graph2ViewController.swift */,
 				4971B2931F52082A0034116F /* Graph3ViewController.swift */,
+				4971B29D1F5212530034116F /* JSONModel.swift */,
+				4971B2991F5212060034116F /* Graph1Data.json */,
+				4971B2971F5211C20034116F /* Graph2Data.json */,
+				4971B29B1F5212100034116F /* Graph3Data.json */,
 			);
 			path = SleepProject;
 			sourceTree = "<group>";
@@ -166,9 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4971B29C1F5212100034116F /* Graph3Data.json in Resources */,
 				4969DC6C1F51FBCD00A2D2EE /* LaunchScreen.storyboard in Resources */,
+				4971B29A1F5212060034116F /* Graph1Data.json in Resources */,
 				4969DC691F51FBCD00A2D2EE /* Assets.xcassets in Resources */,
 				4969DC671F51FBCD00A2D2EE /* Main.storyboard in Resources */,
+				4971B2981F5211C20034116F /* Graph2Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +263,7 @@
 				4971B2921F5207F90034116F /* Graph2ViewController.swift in Sources */,
 				4969DC641F51FBCD00A2D2EE /* ViewController.swift in Sources */,
 				4969DC621F51FBCD00A2D2EE /* AppDelegate.swift in Sources */,
+				4971B29E1F5212530034116F /* JSONModel.swift in Sources */,
 				4971B2941F52082A0034116F /* Graph3ViewController.swift in Sources */,
 				4971B2901F5203FE0034116F /* Graph1ViewController.swift in Sources */,
 			);

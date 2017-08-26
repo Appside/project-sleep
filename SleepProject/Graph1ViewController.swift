@@ -14,6 +14,7 @@ import Neon
 class Graph1ViewController: UIViewController {
     
     let GraphView:LineChartView = LineChartView()
+    let JSONImport: JSONModel = JSONModel()
     
     override func viewDidLoad() {
     
